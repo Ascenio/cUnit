@@ -31,7 +31,7 @@ test(strlen_works, {
 TEST_SUITE
 ```
 
-Each suite consists in a group of tests which are ran sequentially, 
+Each suite consists in a group of tests which are run sequentially, 
 in the same order they were declared. 
 
 Each test is declared inside a test block, which receives as arguments 
@@ -57,7 +57,7 @@ int main() {
 > We set up test runners and exit code. If any test fail, 
 > the program closes with either `EXIT_FAILURE` (1) or `EXIT_SUCCESS` (0) code.
 
-It's simple enought that you can write a script to set it up for you, 
+It's simple enough that you can write a script to set it up for you, 
 if you wish.
 
 ## That's all folks
